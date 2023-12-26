@@ -1,52 +1,26 @@
-<div id="homepage">
 
-    <section>
-        <div class="column">
-            <div class="box">
-                <img src="" alt="">
-                <h1>contact me</h1>
-                <p>You can reach me at my email for the fastest response.</p>
-                <h2>site theme</h2>
-                <p>Frutiger Aero was a prevalent aesthetic from 2004 until around 2013. It focus on Skeuomorphism, glossy textures, and "humanism".</p>
-            </div>
-            <div class="box">
-                <img src="" alt="">
-                <h1>about me</h1>
-                <p>I currently work at Montana's capital as a developer, building out applications and websites. </p>
-                <h2>my stack</h2>
-                <p></p>
-            </div>
+<script>
+    import { fade } from 'svelte/transition';
+</script>
+
+<svelte:head>
+    <title>Contact</title>
+    <meta name="description" content="Information to contact me" />
+</svelte:head>
+
+
+    <div class="column" >
+        <div class="box">
+            <img src="" alt="">
+            <h1>contact me</h1>
+            <p>yada@proton</p>
+            <h2>site theme</h2>
+            <p>Frutiger Aero was a prevalent aesthetic from 2004 until around 2013. It focus on Skeuomorphism, glossy textures, and "humanism".</p>
         </div>
-    </section>
-
-    <nav>
-        <a href=""><i class="material-icons" style="font-size:32px;">home</i>
-           <h3>Home</h3> 
-        </a>
-        <div class="line"></div>
-        <a href=""><i class="material-icons" style="font-size:32px;">lightbulb</i>
-           <h3>Portfolio</h3> 
-        </a>
-        <div class="line"></div>
-        <a href=""><i class="material-icons" style="font-size:32px;">dataset</i>
-            <h3>Gallery</h3></a>
-        <div class="line"></div>
-        <a href=""><i class="material-icons" style="font-size:32px;">mail</i>
-            <h3>Contact</h3>
-        </a>
-    </nav>
-</div>
-
+    </div>
 
 
 <style>
-    section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        margin-top: 1rem;
-    }
     h1 {
         font-size: 2.4rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
@@ -79,9 +53,11 @@
         box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.4);
     }
     .column {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 90%;
         max-width: 1000px;
         gap: 2rem;
