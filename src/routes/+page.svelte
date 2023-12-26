@@ -12,9 +12,9 @@
             <div class="box">
                 <img src="" alt="">
                 <h1>about me</h1>
-                <p>I currently work at Montana's capital as a developer, building out applications and websites.</p>
-                <h2>site theme</h2>
-                <p>Frutiger Aero was a prevalent aesthetic from 2004 until around 2013. It focus on Skeuomorphism, glossy textures, and "humanism".</p>
+                <p>I currently work at Montana's capital as a developer, building out applications and websites. </p>
+                <h2>my stack</h2>
+                <p></p>
             </div>
         </div>
     </section>
@@ -31,7 +31,7 @@
         <a href=""><i class="material-icons" style="font-size:32px;">dataset</i>
             <h3>Gallery</h3></a>
         <div class="line"></div>
-        <a href=""><i class="material-icons" style="font-size:32px;">mail</i>
+        <a href="/contact"><i class="material-icons" style="font-size:32px;">mail</i>
             <h3>Contact</h3>
         </a>
     </nav>
