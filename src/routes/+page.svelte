@@ -9,24 +9,37 @@
 </svelte:head>
 
 
-<div class="column" >
+<div class="column">
     <div class="box">
         <img src="" alt="">
         <h1>welcome to my site</h1>
-        <p>Hey there, my name is Chase and I develop oddities.</p>
+        <p>Hey there, my name is Chase and I develop oddities like this "old" looking site from the 2000s.</p>
         <h2>site theme</h2>
-        <p>Frutiger Aero was a prevalent aesthetic from 2004 until around 2013. It focus on Skeuomorphism, glossy textures, and "humanism".</p>
+        <p>Frutiger Aero was a prevalent aesthetic from 2004 until around 2013. It focuses on Skeuomorphism, glossy textures, and "humanism". </p>
+        <br/>
+        <p>Feel free to change the site's theme below:</p>
+        <select name="theme" id="themeSelect">
+            <option value="Frutiger Aero">Frutiger Aero</option>
+            <option value="Frutiger Metro">Frutiger Metro</option>
+            <option value="Dieter Rams">Dieter Rams</option>
+        </select>
     </div>
     <div class="box">
         <img src="" alt="">
         <h1>about me</h1>
-        <p>I currently work at Montana's capital as a developer, building out applications and websites. </p>
+        <p>Currently I work at Montana's capitol as a developer - building out applications and websites for our citizens or neighboring states. In my freetime I can be found licking collectible stamps or slinging flies on the the missouri river. </p>
         <h2>my stack</h2>
-        <p></p>
+        <p>I really enjoy being able to work on all stages of a project. And this has led me to having a strong array of skills that allows me to be involved from design to delivery. <br /> <br /><a class="stack" href="/stack">Click here to see what I use.</a></p>
+    </div>
+    <div class="spacer">
+
     </div>
 </div>
 
 <style>
+    .stack {
+        color: white;
+    }
     h1 {
         font-size: 2.4rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
@@ -63,16 +76,5 @@
         max-width: 1000px;
         gap: 2rem;
     }
-    .box {
-        color: #fafafa;
-        background: linear-gradient(180deg, rgba(83, 85, 87, 0.9) 0%, rgba(14, 15, 15, 0.9) 100%);
-        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        border-radius: 15px;
-        padding: 2rem;
-        width: 100%;
-        gap: 5px;
-    }
+
 </style>

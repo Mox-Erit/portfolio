@@ -1,26 +1,27 @@
 
 <script>
-    import { fade } from 'svelte/transition';
+    import { fade } from "svelte/transition";
 </script>
 
 <svelte:head>
     <title>Contact</title>
     <meta name="description" content="Information to contact me" />
 </svelte:head>
-
-
     <div class="column" >
         <div class="box">
             <img src="" alt="">
-            <h1>contact me</h1>
-            <p>yada@proton</p>
-            <h2>site theme</h2>
-            <p>Frutiger Aero was a prevalent aesthetic from 2004 until around 2013. It focus on Skeuomorphism, glossy textures, and "humanism".</p>
+            <h1>email</h1>
+            <p><a class="contactMe" href="mailto:moxerit@proton.me">moxerit@proton.me</a></p>
+            <h2>phone</h2>
+            <p><a class="contactMe" href="tel:406-285-1366">(406) 285-1366</a></p>
         </div>
     </div>
-
+    
 
 <style>
+    .contactMe {
+        color: white
+    }
     h1 {
         font-size: 2.4rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));

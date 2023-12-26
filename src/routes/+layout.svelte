@@ -26,5 +26,6 @@
         align-items: center;
         gap: 2rem;
         margin-top: 1rem;
+        overflow-y: auto;
     }
 </style>
