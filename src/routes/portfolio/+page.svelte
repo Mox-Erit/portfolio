@@ -10,34 +10,102 @@
 
 
     <div class="column" >
-        <div class="box">   
+        <div class="box">
+            <h1>portfolio</h1>  
             <p>Projects I completed from my job, private commissions, or personal works.</p>
         </div>
         <div class="box">
-            <img src="" alt="">
-            <h1>department of livestock</h1>
-            <p>Searchable database to find brand inspectors for livestock within Montana.</p>
+ 
+                <h1>Livestock search</h1>
+                <a href="https://liv.mt.gov/livestock-brand-search/">
+                    <img src="img/deptLivestock.png" alt="">
+                </a> 
+                <br/>
+                <p>Searchable database to find brand inspectors for the Department of Livestock within Montana.</p>
+                <br/>
+                <ul>
+                    <li>Cascade CMS</li>
+                    <li>Apache Velocity</li>
+                    <li>DataTables jQuery</li>
+                    <li>Bootstrap 5</li>
+                </ul>
+
         </div>
         <div class="box">
-            <img src="" alt="">
-            <h1>dnrc website</h1>
-            <p>Newly built website for Department of Natural Resources which I coordinated the migration from their old site.</p>
+                <h1>DNRC website</h1>
+                <a href="https://dnrc.mt.gov/">
+                    <img src="img/dnrcLogo.png" alt="">
+                </a> 
+                <br/>
+                <p>Redesigned the DNRC website from the ground-up. Trained over 200+ DNRC employees, contributors, and developers to use the Cascade CMS.</p>
+                <br/>
+                <ul style="margin-left: 15px;">
+                    <li>Cascade CMS</li>
+                    <li>Apache Velocity</li>
+                    <li>DataTables jQuery</li>
+                    <li>Bootstrap 5</li>
+                    <li>Figma</li>
+                    <li>Formstack</li>
+                </ul>
         </div>
         <div class="box">
-            <img src="" alt="">
-            <h1>dnrc website</h1>
-            <p>Newly built website for Department of Natural Resources which I coordinated the migration from their old site.</p>
+                <h1>mt.gov rebuild</h1>
+                <a href="https://mt.gov/">
+                    <img src="img/mtSeal.png" alt="">
+                </a> 
+                <br/>
+                <p>Under Governor orders - coordinated the renewal of mt.gov to resolve broken applications, accessibility issues, and mobile responsiveness. Migrated entire site from GitLab to CascadeCMS, converting .NET code to our stack.</p>
+                <br/>
+                <ul>
+                    <li>weather.gov API</li>
+                    <li>Cascade CMS</li>
+                    <li>Apache Velocity</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap 5</li>
+                    <li>Figma</li>
+                    <li>Formstack</li>
+                </ul>
         </div>
+        <div class="box">
+            <h1>Delaware LMI</h1>
+            <a href="https://lmi.delaware.gov/">
+                <img style="width: 100%; height: auto;" src="img/delawareLMI.png" alt="">
+            </a> 
+            <br/>
+            <p>Migrated the State of Delaware's Labor Market Index website to our Cascade CMS. Brought site to 508 accessibility compliance, faster data graphs, and mobile responsiveness.</p>
+            <br/>
+            <ul>
+                <li>Tableau</li>
+                <li>ReadSpeaker</li>
+                <li>React</li>
+                <li>Cascade CMS</li>
+                <li>Apache Velocity</li>
+                <li>DataTables jQuery</li>
+                <li>jQuery</li>
+                <li>Bootstrap 5</li>
+                <li>Formstack</li>
+            </ul>
+    </div>
         <div class="spacer"></div>
     </div>
 
 
 <style>
-    .contactMe {
-        color: white
+    img {
+        display: flex;
+        width: auto;
+        height: 180px;
+        
+    }
+    a {
+        text-decoration: none;
+        margin: 0 auto;
+    }
+    ul {
+        margin-left: 15px;
     }
     h1 {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
         background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
         -webkit-background-clip: text;
@@ -45,7 +113,7 @@
         background-clip: text;
         text-fill-color: transparent;
         line-height: 125%;
-        margin: 0 0 5px;
+        margin: 0 0 10px;
     }
     h2 {
         font-size: 2.4rem;

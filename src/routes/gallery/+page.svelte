@@ -11,35 +11,38 @@
 
     <div class="column" >
         <div class="box">   
-            <p>This page contains my inspirations and 3D models I have created.</p>
+            <h1>gallery</h1>
+            <br/>
+            <p>My favorite media I take inspiration from for my work.</p>
         </div>
         <div class="box">
             <img src="" alt="">
-            <p>Frutiger Aero</p>
+            <a href="/gallery/frutiger-aero">Frutiger Aero</a>
         </div>
         <div class="box">
             <img src="" alt="">
-            <p>Frutiger Metro</p>
+            <a href="/gallery/frutiger-metro">Frutiger Metro</a>
         </div>
         <div class="box">
             <img src="" alt="">
-            <p>Dieter Rams</p>
+            <a href="/gallery/dieter-rams">Dieter Rams</a>
         </div>
         <div class="box">
             <img src="" alt="">
-            <p>Peter Muller</p>
+            <a href="/gallery/donald-deskey">Donald Deskey</a>
         </div>
         <div class="box">
             <img src="" alt="">
-            <p>Donald Deskey</p>
+            <a href="/gallery/peter-muller">Peter Muller</a>
         </div>
         <div class="spacer"></div>
     </div>
 
 
 <style>
-    .contactMe {
-        color: white
+    a {
+        color: white;
+        font-size: 1.2em;
     }
     h1 {
         font-size: 2.4rem;

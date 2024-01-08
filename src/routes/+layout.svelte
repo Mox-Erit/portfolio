@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>{$page.url.pathname.replaceAll('-', ' ')}</title>
+
 </svelte:head>
 
 <main in:fade>
@@ -21,11 +21,11 @@
 
 <style>
     section {
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        margin-top: 1rem;
         overflow-y: auto;
     }
 </style>

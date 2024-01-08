@@ -41,7 +41,7 @@
     box-sizing: border-box; 
 }
 body {
-    height: 100vh;
+    height: 100%;
     background: url("img/frutiger_aero_grass.jpg") no-repeat center center fixed;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-family: 'Dosis', sans-serif;

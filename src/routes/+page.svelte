@@ -11,31 +11,25 @@
 
 <div class="column">
     <div class="box">
-        <img src="" alt="">
-        <h1>welcome to my site (WIP IT IS UGLY)</h1>
-        <p>Hey there, my name is Chase and I develop oddities like this "old" looking site from the 2000s.</p>
+        <h1>Welcome!</h1>
+        <p>Hey there, my name is Chase and I develop oddities like this "old" looking site.
+            <br/><br/> I am currently employed working at our state capital - building nation-wide applications for the State of Montana or neighboring state governments.</p>
         <br />
-        <h2>site theme</h2>
+        <h2>Site theme</h2>
         <p>This theme, Frutiger Aero, was a prevalent aesthetic from 2004 until around 2013. It focuses on Skeuomorphism, glossy textures, and "humanism". </p>
         <br/>
-        <p>Feel free to change the site's theme below:</p>
+        <!-- <p>Feel free to change the site's theme below:</p>
         <br/>
         <select name="theme" id="themeSelect">
             <option value="Frutiger Aero">Frutiger Aero</option>
             <option value="Frutiger Metro">Frutiger Metro</option>
             <option value="Dieter Rams">Dieter Rams</option>
-        </select>
+        </select> -->
     </div>
     <div class="box">
         <img src="" alt="">
-        <h1>about me</h1>
-        <p>Currently I work with my state's government as a software engineer - building out applications and websites for our citizens or neighboring states. In my freetime I can be found licking collectible stamps or slinging flies on the the Missouri river. </p>
-        <br />
-        <h2>my stack</h2>
+        <h2>My stack</h2>
         <a class="stack" href="/stack">Click here to see what I use.</a>
-    </div>
-    <div class="spacer">
-
     </div>
 </div>
 
@@ -70,7 +64,7 @@
     }
 
     .column {
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
