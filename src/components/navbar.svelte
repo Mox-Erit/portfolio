@@ -27,9 +27,10 @@
 .line {
     width: 1px;
     height: 3rem;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.18) 35.94%, rgba(255, 255, 255, 0.27) 100%);
+    background: linear-gradient(180deg, hsla(187, 41%, 39%, 1) 0%, hsla(188, 100%, 9%, 1) 100%);
     box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.4);
 }
+
 nav {
     position: fixed;
     overflow: hidden;
@@ -40,7 +41,7 @@ nav {
     bottom: 0;
     min-height: 10%;
     width: 100%;
-    background: linear-gradient(180deg, rgba(99, 102, 104, 0.9) 0%, rgba(69, 71, 71, 0.9) 50.52%, rgba(52, 52, 52, 0.9) 53.12%, rgba(0, 0, 0, 0.9) 100%);
+    background: linear-gradient(180deg, hsla(187, 41%, 39%, 1) 0%, hsla(188, 100%, 9%, 1) 100%);
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
 }
 nav a {
@@ -50,7 +51,7 @@ nav a {
     width: 6em;
     text-align: center;
     border-radius: 15px;
-    color: #fafafa;
+    color: #fff;
     text-decoration: none;
 }
 /* nav a:active {
@@ -58,11 +59,29 @@ nav a {
 } */
 nav h3 {
     filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-    background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
+    background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
     font-size: 1rem;
+}
+
+@media (min-width: 1001px) {
+
+nav {
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    bottom: 0;
+    min-height: 10%;
+    width: 100%;
+    background: linear-gradient(180deg, hsla(187, 41%, 39%, 1) 0%, hsla(188, 100%, 9%, 1) 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+}
+
 }
 </style>

@@ -44,28 +44,6 @@
         color: white;
         font-size: 1.2em;
     }
-    h1 {
-        font-size: 2.4rem;
-        filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        line-height: 125%;
-        margin: 0 0 5px;
-    }
-    h2 {
-        font-size: 2.4rem;
-        filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        line-height: 125%;
-        margin: 0 0 5px;
-    }
     p {
         font-size: 1.2rem;
     }

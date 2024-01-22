@@ -22,8 +22,8 @@
     -webkit-font-smoothing: antialiased;
   }
   i{
-    filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-    background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
+    filter: drop-shadow(0px -2px 1px rgba(255, 255, 255, 0.25));
+    background: linear-gradient(180deg, rgb(252, 252, 252) 0%, hsla(187, 41%, 39%, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -42,7 +42,7 @@
 }
 body {
     height: 100%;
-    background: url("img/frutiger_aero_grass.jpg") no-repeat center center fixed;
+    background: url("img/frutGrass.jpeg") no-repeat center center fixed;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-family: 'Dosis', sans-serif;
 }
@@ -61,13 +61,35 @@ section {
     width: 100%;
 }
 .box {
-    color: #fafafa;
-    background: linear-gradient(180deg, rgba(83, 85, 87, 0.9) 0%, rgba(14, 15, 15, 0.9) 100%);
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    background: linear-gradient(180deg, hsla(187, 41%, 39%, 1) 0%, hsla(188, 100%, 9%, 1) 100%);
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     border-radius: 15px;
     padding: 2rem;
     width: 100%;
+}
+
+h1 {
+    font-size: 2.4rem;
+    filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    line-height: 125%;
+    margin: 0 0 5px;
+}
+h2 {
+    font-size: 2.4rem;
+    filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    line-height: 125%;
+    margin: 0 0 5px;
 }

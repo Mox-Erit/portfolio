@@ -36,11 +36,12 @@
 <style>
     .stack {
         color: white;
+        font-size: 1.4rem;
     }
     h1 {
         font-size: 2.4rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
+        background: #fff;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -51,7 +52,7 @@
     h2 {
         font-size: 2.4rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
+        background: #fff;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;

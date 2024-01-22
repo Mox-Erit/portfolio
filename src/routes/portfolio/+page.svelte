@@ -17,7 +17,7 @@
         <div class="box">
  
                 <h1>Livestock search</h1>
-                <a href="https://liv.mt.gov/livestock-brand-search/">
+                <a href="https://liv.mt.gov/Brands-Enforcement/Find-a-brand-inspector">
                     <img src="img/deptLivestock.png" alt="">
                 </a> 
                 <br/>
@@ -104,36 +104,8 @@
     ul {
         margin-left: 15px;
     }
-    h1 {
-        font-size: 2.8rem;
-        filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        line-height: 125%;
-        margin: 0 0 10px;
-    }
-    h2 {
-        font-size: 2.4rem;
-        filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        line-height: 125%;
-        margin: 0 0 5px;
-    }
     p {
-        font-size: 1.2rem;
-    }
-    .line {
-        width: 1px;
-        height: 36px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.18) 35.94%, rgba(255, 255, 255, 0.27) 100%);
-        box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.4);
+        font-size: 1.6rem;
     }
     .column {
         display: flex;

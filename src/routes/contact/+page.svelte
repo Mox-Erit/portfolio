@@ -25,7 +25,7 @@
     h1 {
         font-size: 2.4rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
+        background: #fff;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -36,7 +36,7 @@
     h2 {
         font-size: 2.4rem;
         filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
-        background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
+        background: #fff;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -65,7 +65,7 @@
     }
     .box {
         color: #fafafa;
-        background: linear-gradient(180deg, rgba(83, 85, 87, 0.9) 0%, rgba(14, 15, 15, 0.9) 100%);
+        background: linear-gradient(180deg, hsla(187, 41%, 39%, 1) 0%, hsla(188, 100%, 9%, 1) 100%);
         box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
         display: flex;
         align-items: flex-start;
