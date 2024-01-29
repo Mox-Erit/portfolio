@@ -14,9 +14,9 @@
     <a aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined} href="/portfolio"><i class="material-icons" style="font-size:32px;">lightbulb</i>
        <h3>Portfolio</h3> 
     </a>
-    <div class="line"></div>
+    <!-- <div class="line"></div>
     <a aria-current={$page.url.pathname === '/gallery' ? 'page' : undefined} href="/gallery"><i class="material-icons" style="font-size:32px;">dataset</i>
-        <h3>Gallery</h3></a>
+        <h3>Gallery</h3></a> -->
     <div class="line"></div>
     <a aria-current={$page.url.pathname === '/contact' ? 'page' : undefined} href="/contact"><i class="material-icons" style="font-size:32px;">mail</i>
         <h3>Contact</h3>
