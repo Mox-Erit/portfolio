@@ -11,7 +11,7 @@
 
     <div class="column" >
         <div class="box">
-            <h1>front end</h1>
+            <p>FRONT END</p>
             <ul>
                 <li>JavaScript</li>
                 <li>Svelte</li>
@@ -28,7 +28,7 @@
             </ul>
         </div>
         <div class="box">
-            <h1>back end</h1>
+            <p>BACK END</p>
             <ul>
                 <li>SvelteKit</li>
                 <li>Elixir</li>
@@ -40,7 +40,7 @@
             </ul>
         </div>
         <div class="box">
-            <h1>tools</h1>
+            <p>TOOLS</p>
             <ul>
                 <li>Storybook</li>
                 <li>Postman</li>
@@ -62,26 +62,17 @@
 
 
 <style>
-    .contactMe {
-        color: white
+    ul {
+        list-style: none;
+    }
+    li {
+        font-size: 3rem;
     }
     p {
-        font-size: 1.2rem;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
     }
-    .line {
-        width: 1px;
-        height: 36px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.225) 0%, rgba(255, 255, 255, 0.18) 35.94%, rgba(255, 255, 255, 0.27) 100%);
-        box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.4);
-    }
-    .column {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        width: 90%;
-        max-width: 1000px;
-        gap: 2rem;
-    }
+
 
 </style>
