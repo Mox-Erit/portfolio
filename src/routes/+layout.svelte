@@ -1,5 +1,4 @@
 <script>
-    import { fade } from 'svelte/transition';
     import { page } from '$app/stores';
     import Nav from '../components/navbar.svelte'
     import './styles.css';
@@ -9,7 +8,7 @@
 
 </svelte:head>
 
-<main in:fade>
+<main >
     <div id="homepage" >    
         <section>
             <slot />   

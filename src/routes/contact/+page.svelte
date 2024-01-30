@@ -1,8 +1,4 @@
 
-<script>
-    import { fade } from "svelte/transition";
-</script>
-
 <svelte:head>
     <title>Contact</title>
     <meta name="description" content="Information to contact me" />

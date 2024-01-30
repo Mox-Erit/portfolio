@@ -1,8 +1,3 @@
-
-<script>
-    import { fade } from 'svelte/transition';
-</script>
-
 <svelte:head>
 	<title>Moxerit</title>
 	<meta name="description" content="Chase's portfolio site" />
@@ -23,7 +18,7 @@
         </h2>
     </div>
     <div class="box row">
-        <a id="tools" href="/stack">MY STACK</a> <i class="material-icons" style="font-size:60px; margin-left: 1rem;">arrow_forward</i>
+        <a id="tools" href="/stack">MY STACK <i class="material-icons" style="font-size:60px; margin-left: 1rem;">arrow_forward</i></a> 
     </div>
 </div>
 
@@ -43,10 +38,12 @@
         color: #000000;
         text-decoration: none;
         font-weight: bold;
-    }
-    .row {
-        flex-direction: row;
+        display: flex;
         align-items: center;
+    }
+
+    .material-icons {
+      
     }
 
 </style>
