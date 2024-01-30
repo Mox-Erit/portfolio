@@ -24,7 +24,7 @@
             </a> 
         </div>
         <div class="box border">         
-            <a href="https://lmi.delaware.gov/"><h2>Delaware LMI</h2>
+            <a href="https://lmi.delaware.gov/"><h2>DELAWARE LMI</h2>
             <p>Migrated the State of Delaware's Labor Market Index website to our Cascade CMS. Brought site to 508 accessibility compliance, faster data graphs, and mobile responsiveness.</p>
         </a> 
     </div>
@@ -33,20 +33,30 @@
 
 
 <style>
+    .box:hover {
+        background-color: #ff7f5c;
+    }
     h1 {
-        background-color: #000000;
+        background-color: var(--black);
         font-weight: bold;
         font-size: 4rem;
     }
     h2 {
-        background-color: #000000;
+        background-color: var(--black);
         font-weight: bold;
         font-size: 4rem;
     }
     p {
         font-size: 2rem;
 
-        color: #000000;
+        color: var(--black);
+    }
+    @media (min-width: 1001px) {
+        p {
+        font-size: 4rem;
+
+        color: var(--black);
+        }
     }
     a {
         font-size: 4rem;
@@ -57,12 +67,12 @@
         margin-left: 2rem;
     }
     li{
-        color: #000000;
+        color: var(--black);
         font-size: 2rem;
         font-weight: bold;
     }
     .border {
-        border: dotted 4px #000000;
+        border: solid 4px var(--black);
     }
 
 </style>

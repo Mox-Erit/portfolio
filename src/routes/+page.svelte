@@ -25,25 +25,26 @@
 <style>
     #chase {
         font-size: 5rem;
-        background-color: #000000;
+        background-color: var(--black);
         font-weight: bold;
     }
+    
     #dev {
         font-size: 5rem;
-        background-color: #000000;
+        background-color: var(--black);
         font-weight: bold;
     }
     #tools {
-        font-size: 3rem;
-        color: #000000;
+        font-size: 4rem;
+        color: var(--black);
         text-decoration: none;
         font-weight: bold;
         display: flex;
         align-items: center;
+        border-bottom: dotted 4px var(--black);
     }
-
-    .material-icons {
-      
+    .hover-white:hover {
+        color: var(--ivory);
     }
 
 </style>

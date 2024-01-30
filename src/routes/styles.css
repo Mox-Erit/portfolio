@@ -22,14 +22,14 @@
     -webkit-font-smoothing: antialiased;
   }
   i{
-    background: var(--black);
+    background: var(--ivory);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
     }
 i:hover{
-    background: var(--ivory);
+    background: var(--black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -45,14 +45,14 @@ i:hover{
   }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #000000;
+    background: #141414;
   }
   /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #000000;
+    background: #141414;
   }
 :root {
-    --black: #000000;
+    --black: #141414;
     --orange: #FF4B18;
     --ivory: #FAF9F1;
 }
@@ -104,7 +104,7 @@ section {
     width: 100%;
 }
 .box {
-    color: #000000;
+    color: var(--black);
     display: flex;
     align-items: flex-start;
     flex-direction: column;

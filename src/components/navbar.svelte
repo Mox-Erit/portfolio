@@ -7,11 +7,11 @@
 </script>
 
 <nav>
-    <a aria-current={$page.url.pathname === '/' ? 'page' : undefined} href="/"><i class="material-icons" style="font-size:50px;">home</i></a>
+    <a aria-current={$page.url.pathname === '/' ? 'page' : undefined} href="/"><i class="material-icons">home</i></a>
 
-    <a aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined} href="/portfolio"><i class="material-icons" style="font-size:50px;">grid_view</i></a>
+    <a aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined} href="/portfolio"><i class="material-icons">grid_view</i></a>
 
-    <a aria-current={$page.url.pathname === '/contact' ? 'page' : undefined} href="/contact"><i class="material-icons" style="font-size:50px;">mail</i></a>
+    <a aria-current={$page.url.pathname === '/contact' ? 'page' : undefined} href="/contact"><i class="material-icons">mail</i></a>
 </nav>
 
 <style>
@@ -26,8 +26,9 @@ nav {
     bottom: 0;
     min-height: 10%;
     width: 100%;
-    background: var(--orange);
+    background: var(--transparent);
 }
+
 nav a {
     justify-self: center;
     padding: 1rem;
@@ -47,22 +48,42 @@ nav h3 {
     text-fill-color: transparent;
     font-size: 1rem;
 }
+.material-icons {
+    font-size: 65px;
+    margin: auto;
+}
 
+@media (max-width: 1200px) {
+    .column {
+        width: 80% !important;
+    }
+}
 @media (min-width: 1001px) {
-
-nav {
-    position: fixed;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    bottom: 0;
-    right: 0;
-    min-height: 10%;
-    max-width: 250px;
-    background: var(--orange);
-}
-
-}
+    nav {
+        position: fixed;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        bottom: 0;
+        right: 0;
+        min-height: 20%;
+        max-width: 100px;
+        background: var(--orange);
+        margin-left: 50px;
+    }
+    
+    nav a {
+        justify-self: center;
+        padding: 1rem;
+        height: 6em;
+        width: 6em;
+        text-align: center;
+        border-radius: 15px;
+        color: var(--black);
+        text-decoration: none;
+    }
+    
+    }
 </style>

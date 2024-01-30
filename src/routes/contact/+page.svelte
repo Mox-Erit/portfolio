@@ -29,18 +29,18 @@
     }
     h1 {
         font-size: 5rem;
-        background-color: #000000;
+        background-color: var(--black);
         font-weight: bold;
     }
     h2 {
         font-size: 5rem;
-        background-color: #000000;
+        background-color: var(--black);
         font-weight: bold;
     }
     p {
         font-size: 3rem;;
     }
     .contactMe {
-        color: #000000;
+        color: var(--black);
     }
 </style>
