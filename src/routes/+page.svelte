@@ -35,7 +35,7 @@
         font-weight: bold;
     }
     #tools {
-        font-size: 4rem;
+        font-size: 3rem;
         color: var(--black);
         text-decoration: none;
         font-weight: bold;

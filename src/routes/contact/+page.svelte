@@ -38,7 +38,7 @@
         font-weight: bold;
     }
     p {
-        font-size: 3rem;;
+        font-size: 2.5rem;;
     }
     .contactMe {
         color: var(--black);
