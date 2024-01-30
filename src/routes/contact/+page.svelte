@@ -28,17 +28,17 @@
         color: white
     }
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         background-color: var(--black);
         font-weight: bold;
     }
     h2 {
-        font-size: 5rem;
+        font-size: 4rem;
         background-color: var(--black);
         font-weight: bold;
     }
     p {
-        font-size: 2.5rem;;
+        font-size: 2.2rem;
     }
     .contactMe {
         color: var(--black);

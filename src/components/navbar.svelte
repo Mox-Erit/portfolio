@@ -21,19 +21,19 @@ nav {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     bottom: 0;
-    min-height: 10%;
+    min-height: 1%;
     width: 100%;
-    background: var(--transparent);
+    background: var(--orange);
 }
 
 nav a {
     justify-self: center;
-    padding: 1rem;
-    height: 6em;
-    width: 6em;
+    padding-top: 1rem;
+    height: 4em;
+    width: 4em;
     text-align: center;
     border-radius: 15px;
     color: var(--black);
@@ -49,8 +49,7 @@ nav h3 {
     font-size: 1rem;
 }
 .material-icons {
-    font-size: 65px;
-    margin: auto;
+    font-size: 36px;
 }
 
 @media (max-width: 1200px) {
@@ -59,6 +58,11 @@ nav h3 {
     }
 }
 @media (min-width: 1001px) {
+
+    .material-icons {
+    font-size: 60px;
+    margin: auto;
+}
     nav {
         position: fixed;
         overflow: hidden;

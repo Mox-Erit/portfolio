@@ -44,7 +44,7 @@
     h2 {
         background-color: var(--black);
         font-weight: bold;
-        font-size: 4rem;
+        font-size: 3rem;
     }
     p {
         font-size: 2rem;
@@ -74,5 +74,11 @@
     .border {
         border: solid 4px var(--black);
     }
-
+@media (min-width: 1001px) {
+    h2 {
+        background-color: var(--black);
+        font-weight: bold;
+        font-size: 4rem;
+    }
+}
 </style>

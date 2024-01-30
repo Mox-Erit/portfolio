@@ -13,13 +13,13 @@
     <div class="box">
         <h2 id="dev">
             FULL<br/>
-            STACK<br/>
+            <a id="tools" href="/stack">STACK <i class="material-icons" style="font-size:60px; margin-left: 1rem;">arrow_forward</i></a>
             DEV
         </h2>
     </div>
-    <div class="box row">
+    <!-- <div class="box row">
         <a id="tools" href="/stack">MY STACK <i class="material-icons" style="font-size:60px; margin-left: 1rem;">arrow_forward</i></a> 
-    </div>
+    </div> -->
 </div>
 
 <style>
@@ -35,7 +35,7 @@
         font-weight: bold;
     }
     #tools {
-        font-size: 3rem;
+        font-size: 5rem;
         color: var(--black);
         text-decoration: none;
         font-weight: bold;
@@ -46,5 +46,6 @@
     .hover-white:hover {
         color: var(--ivory);
     }
+
 
 </style>
